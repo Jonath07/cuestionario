@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="titulo">
+            Cuestionario Desarrollo WEB
+        </div>
+
+        <div class="preguntas">
+            <form id="cuestionario_Web" action="proceso.php" method="POST" >
+                <h2>Pregunta 1:</h2>
+                <p> ¿Qué lenguaje se utiliza principalmente para la programación del lado del cliente en la web?</p>
+                <input type="radio" name="p1" value="a"> a) Java<br>
+                <input type="radio" name="p1" value="b"> b) HTML<br>
+                <input type="radio" name="p1" value="c"> c) Python<br>
+                <br>
+                <h2>Pregunta 2:</h2>
+                <p> ¿Cuál de los siguientes no es un lenguaje de marcado utilizado en la programación web?</p>
+                <input type="radio" name="p2" value="a"> a) XML<br>
+                <input type="radio" name="p2" value="b"> b) JSON<br>
+                <input type="radio" name="p2" value="c"> c) CSS<br>
+                <br>
+                <h2>Pregunta 3:</h2>
+                <p> ¿Cuál de los siguientes frameworks es utilizado para construir aplicaciones web de una sola página (SPA)?</p>
+                <input type="radio" name="p3" value="a"> a) React<br>
+                <input type="radio" name="p3" value="b"> b) Java<br>
+                <input type="radio" name="p3" value="c"> c) MySQL<br>
+                <br>
+                <h2>Pregunta 4:</h2>
+                <p> ¿Qué protocolo se utiliza para transferir datos desde un servidor web a un navegador?</p>
+                <input type="radio" name="p4" value="a"> a) HTTP<br>
+                <input type="radio" name="p4" value="b"> b) FTP<br>
+                <input type="radio" name="p4" value="c"> c) TCP<br>
+                <br>
+                <h2>Pregunta 5:</h2>
+                <p> ¿Qué lenguaje de programación se utiliza principalmente en el lado del servidor para la programación web?</p>
+                <input type="radio" name="p5" value="a"> a) JavaScript<br>
+                <input type="radio" name="p5" value="b"> b) Ruby<br>
+                <input type="radio" name="p5" value="c"> c) PHP<br>
+                <hr>
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
